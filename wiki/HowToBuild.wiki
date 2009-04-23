@@ -29,20 +29,20 @@ The following struction shows you how to install Apache Portable Runtime(apr) Li
     tar -jxvf apr-1.3.3.tar.bz2
 }}}
 
-Now, enter the directory where the package is extracted.
+  * Enter the directory where the package is extracted.
 
 {{{
-    
+    cd apr-1.3.3
 }}}
 
-  * Configuring aapr Library:
+  * Configuring apr Library:
 {{{
-    
+    configure
 }}}
 
-  * Compiling apr:
+  * Compiling and installing apr:
 {{{
-
+    make; sudo make install
 }}}
 
 

@@ -87,6 +87,10 @@ The following struction shows you how to install Apache Portable Runtime Utility
 
 = compile =
 
+= Reference =
+
+ * [http://www.techsww.com/tutorials/libraries/apr/installation/installing_apache_portable_runtime_library_on_ubuntu_linux.php Installing Apache Portable Runtime (apr) Library on Ubuntu Linux]
+
 
 Add your content here.  Format your content with:
   * Text in *bold* or _italic_

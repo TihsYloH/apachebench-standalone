@@ -17,7 +17,7 @@ This project depends on Apache Portable Runtime library and APR-util library, th
 
 Before starting, please check to see if there is a more up-to-date version available to download. Visit http://apr.apache.org/ to find out about the available versions.
 
-The following struction shows you how to install Apache Portable Runtime(apr) Library on Ubuntu Linux system.
+The following struction shows you how to install Apache Portable Runtime(apr) Library on Ubuntu Linux system. *Note:* Replace 1.3.3 with your version number:
  
   * Downloading apr:
 {{{
@@ -63,24 +63,26 @@ The following struction shows you how to install Apache Portable Runtime Utility
 {{{
     wget -c http://apache.mirror.phpchina.com/apr/apr-util-1.3.4.tar.bz2
 }}}
+
   * Extracting files from the downloaded package:
 {{{
-    
+    tar -jxvf apr-util-1.3.4.tar.bz2    
 }}}
+
   * Configuring apr-util Library:
 {{{
-
+    ./configure --with-apr=/usr/local/apr
 }}}
+
   * Compiling apr-util:
 {{{
-
+    make
 }}}
+
   * Installing apr-util:
-
-
-
-
-
+{{{
+    make install
+}}}
 
 
 = compile =

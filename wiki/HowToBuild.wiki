@@ -30,7 +30,6 @@ The following struction shows you how to install Apache Portable Runtime(apr) Li
 }}}
 
   * Enter the directory where the package is extracted.
-
 {{{
     cd apr-1.3.3
 }}}

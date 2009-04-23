@@ -49,6 +49,12 @@ The following struction shows you how to install Apache Portable Runtime(apr) Li
     sudo make install
 }}}
 
+  * Create a soft link to apr pkgconfig file.
+{{{
+    sudo ln -s /usr/local/apr/lib/pkgconfig/apr-1.pc /usr/local/lib/pkgconfig/apr-1.pc 
+}}}
+
+
   * Compile apr-skeleton.c to test if apr lib is installed successfully.
 {{{
     cd apachebench-standalone

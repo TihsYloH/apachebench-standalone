@@ -29,8 +29,13 @@ The following struction shows you how to install Apache Portable Runtime(apr) Li
 The following struction shows you how to install Apache Portable Runtime Utility (apr-util) Library on Ubuntu Linux system.*Note:* Replace 1.3.4 with your version number:
 
   * Downloading 
-  * 
-  * 
+{{{
+    wget -c http://apache.mirror.phpchina.com/apr/apr-util-1.3.4.tar.bz2
+}}}
+  * Extracting files from the downloaded package:
+  * Configuring apr-util Library:
+  * Compiling apr-util:
+  * Installing apr-util:
 
 
 

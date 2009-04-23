@@ -1,0 +1,21 @@
+#How to build this project.
+
+= Introduction =
+
+This page describe how to build ab from apachebenche-standalone. 
+
+
+= Download source code =
+
+You can get the source code from the svn repository. Please follow the instruction on Source page to check it out. 
+
+For end users, the best way is to download a release [http://code.google.com/p/apachebench-standalone/source source] package from our download page.
+
+Add your content here.  Format your content with:
+  * Text in *bold* or _italic_
+  * Headings, paragraphs, and lists
+  * Automatic links to other wiki pages
+
+= Depend packages =
+
+= compile =

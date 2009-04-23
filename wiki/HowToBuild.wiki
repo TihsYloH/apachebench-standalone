@@ -13,6 +13,12 @@ For end users, the best way is to download a release source package from our [ht
 
 = Depend packages =
 
+This project depends on Apache Portable Runtime library and APR-util library, they must be available in your system before building this project.
+
+== Ubuntu 8.10==
+
+
+
 = compile =
 
 
